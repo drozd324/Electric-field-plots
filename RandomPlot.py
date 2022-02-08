@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import math
 import random
 
-max = 10
+max = 10 # change amount of charges here
 half_max = max/2
 epsilon = (8.85418782)*(10**-12)
 k = (1/(4*np.pi*epsilon))
