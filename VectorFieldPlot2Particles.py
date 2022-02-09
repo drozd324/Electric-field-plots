@@ -49,19 +49,3 @@ plt.colorbar(qq, cmap=plt.cm.coolwarm)
 plt.title("Vector field of two Point Charges")
 
 plt.show()
-
-# looped plot
-"""for u in range(5):
-    y_pos1 = y_pos1 +1
-
-    i_vector = i_part(q1, x_pos1, y_pos1) + i_part(q2, x_pos2, y_pos2)
-    j_vector = j_part(q1, x_pos1, y_pos1) + j_part(q2, x_pos2, y_pos2)
-    magnitude = magn(i_vector, j_vector)
-    i_normalised = i_vector / magnitude
-    j_normalised = j_vector / magnitude
-
-    time.sleep(1)
-    plt.scatter(x_pos1, y_pos1, 40, "red")
-    plt.scatter(x_pos2, y_pos2, 40, "blue")
-    plt.quiver(x ,y ,i_normalised ,j_normalised )
-    plt.show()"""
