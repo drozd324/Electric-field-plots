@@ -1,7 +1,6 @@
 from unicodedata import is_normalized
 import numpy as np
 import matplotlib.pyplot as plt
-import math
 import random
 
 max = 10 # change amount of charges here
@@ -60,7 +59,6 @@ magnitude = magn(i_vector, j_vector)
 i_normalised = i_vector / magnitude
 j_normalised = j_vector / magnitude
 
-#plt.quiver(x ,y ,i_vector ,j_vector)
 qq = plt.quiver(x ,y ,i_normalised ,j_normalised, magnitude, cmap=plt.cm.coolwarm)
 plt.colorbar(qq, cmap=plt.cm.coolwarm)
 plt.title("Vector Field of " + str(num_charges) + " Point Charges")
